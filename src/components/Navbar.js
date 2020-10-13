@@ -65,11 +65,11 @@ function Navbar() {
                             </li>
                             <li className="nav-btn">
                                 {button ? (
-                                    <Link to='/sign-up' className="btn-link">
+                                    <Link to='/SignUp' className="btn-link">
                                         <Button buttonStyle='btn--outline'>SIGN UP</Button>
                                     </Link>
                                 ) : (
-                                    <Link  to='/sign-up'className="btn-link" onClick={closeMobileMenu}>
+                                    <Link  to='/SignUp'className="btn-link" onClick={closeMobileMenu}>
                                         <Button buttonStlye='btn--outline' 
                                         buttonSize='btn--mobile'>SIGN UP</Button>
                                     </Link>
